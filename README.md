@@ -13,17 +13,17 @@ The Jupyter Notebook has the following contents:
         2.2 Plot YTM         
         2.3 Group by YTM by different rating
         
-  3. Load and manipulate Macro data 
+  3. Load and manipulate Macro data \
         3.1 Change date to to_datetime and set index \
         3.2 Merge all macro data and Average YTM into one big dataframe
         
-  4. Run regression 
+  4. Run regression \
         4.1 Perform linear regression of YTM and each factor \
         4.2 Summary statistics (level of significance) \
         4.3 Plot results \
         4.4 Conclusion for results
         
-  5. Perform PCA and split into train sample and test sample 
+  5. Perform PCA and split into train sample and test sample \
         5.1 Find cross correlation of macro factors. \
         5.2 Define insample data (prior to 2019). Out of sample data (2020) \
         5.3 Standardize all factors (x-mean)/sd \
