@@ -24,10 +24,10 @@ The Jupyter Notebook has the following contents:
         4.4 Conclusion for results
         
   5. Perform PCA and split into train sample and test sample \
-        5.1 Find cross correlation of macro factors. \
+        5.1 Find cross correlation of macro factors \
         5.2 Define insample data (prior to 2019). Out of sample data (2020) \
         5.3 Standardize all factors (x-mean)/sd \
-        5.4 Perform linear regression of YTM to all factors. \
+        5.4 Perform linear regression of YTM to all factors \
         5.5 Perform PCA \
         5.6 Use result to predict both train and target data \
         5.7 Plot the results \
