@@ -19,7 +19,7 @@ The Jupyter Notebook has the following contents:
         
   4. Run regression 
         4.1 Perform linear regression of YTM and each factor \
-        4.2 Summary statistics (level of significance ) \
+        4.2 Summary statistics (level of significance) \
         4.3 Plot results \
         4.4 Conclusion for results
         
