@@ -3,13 +3,14 @@
 I built a Principle components analysis model that predicts Yield to Maturity of Chinese Funds USD Bonds using macroeconomic factors such as US-Treasury rate, exchange rate, GDP. First I acquired and validated this large dataset and manipulate them into a clean framework. Then I started with linear models but found out that the multicollinearity introduced huge variance for the coefficients. To solve this problem, I tried different methods including reducing the number of predictors, adding ridge and lasso regularization and using PCA models. I found out PCA models delivers the most consistent result both in sample and out of sample.
 
 The Jupyter Notebook has the following contents:
+
   1. Load data and manipulate data \
         1.1 Melt date Column \
         1.2 Change date to to_datetime and set index 
     
-  2. Calculate weighted YTM 
-        2.1 Calculate daily average YTM weighted by market cap. \
-        2.2 Plot YTM \        
+  2. Calculate weighted YTM \
+        2.1 Calculate daily average YTM weighted by market cap \
+        2.2 Plot YTM         
         2.3 Group by YTM by different rating
         
   3. Load and manipulate Macro data 
