@@ -1,10 +1,6 @@
 # Sample_Project_Nan_Li
 
-I built a Principle components analysis model that predicts Yield to Maturity of Chinese Funds USD Bonds using macroeconomic factors such as US-Treasury rate, exchange rate, GDP
-First I acquired and validated this large dataset and manipulate them into a clean framework
-Then I started with linear models but found out that the multicollinearity introduced huge variance for the coefficients.
-To solve this problem, I tried different methods including reducing the number of predictors, adding ridge and lasso regularization and using PCA models. 
-I found out PCA models delivers the most consistent result both in sample and out of sample.
+I built a Principle components analysis model that predicts Yield to Maturity of Chinese Funds USD Bonds using macroeconomic factors such as US-Treasury rate, exchange rate, GDP. First I acquired and validated this large dataset and manipulate them into a clean framework. Then I started with linear models but found out that the multicollinearity introduced huge variance for the coefficients. To solve this problem, I tried different methods including reducing the number of predictors, adding ridge and lasso regularization and using PCA models. I found out PCA models delivers the most consistent result both in sample and out of sample.
 
 The Jupyter Notebook has the following contents:
   1. Load data and manipulate data
