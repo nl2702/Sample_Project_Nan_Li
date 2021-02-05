@@ -1,5 +1,6 @@
 # Sample_Project_Nan_Li
 
+This repo contains an ipynb file and an HTML file with the same contents.
 I built a Principle components analysis model that predicts Yield to Maturity of Chinese Funds USD Bonds using macroeconomic factors and company fundamentals such as US-Treasury rate, exchange rate, GDP
 First I acquired and validated this huge dataset and manipulate them into a clean framework
 Then I started with linear models but found out that the multicollinearity introduced huge variance for the coefficients.
